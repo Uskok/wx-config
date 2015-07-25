@@ -1,0 +1,17 @@
+.clang
+.codelite
+bin
+Debug
+Release
+obj
+.tern-*
+compile_commands.json
+cscope.out
+Makefile
+wx-config.cscope_*
+wx-config.mk
+wx-config.depend
+wx-config.layout
+wx-config.txt
+wx-config_dbg.*
+
