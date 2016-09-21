@@ -7,9 +7,12 @@
 // Licence:     wxWidgets licence
 // First Source:
 // $URL: http://wx-config-win.googlecode.com $
-// Second Source:
-// $URL: https://github.com/stahta01/cb_projects_for_wxWidgets $
 //
+// Second Source:
+// $URL: https://github.com/stahta01/wx-config-win $
+//
+// Current Version:
+// $URL: https://github.com/Uskok/wx-config $
 // Modified: uskok@o2mail.de
 //--------------------------------------------------------------------------------------------
 

@@ -211,7 +211,9 @@ bool CmdLineOptions::ValidArgs()
   if(!valid)
   {
     if(m_vars.size() > 1 && !KeyExists("--help"))
+    {
       std::cout << g_tokError << "Unrecognised option: '" << m_vars.begin()->first << "'\n" << std::endl;
+    }
 
     std::cerr << "Usage: wx-config [options]\n";
     std::cerr << "Options:\n";
