@@ -1,33 +1,53 @@
 # wx-config
 wx-config for Windows
 
-Option as ""WXCFG=gcc492-x64_dll/mswu"" is now allowed.
+Option as "WXCFG=gcc492-x64_dll/mswu" is now allowed.
 This make life much easier if wxWidgets is compiled, in parallel with different compilers. 
 
 Examples:
-""WXCFG=gcc492-x64_dll/mswu""
-""WXCFG=gcc510-x64_dll/mswu""
-""WXCFG=vc_x64_dll/mswu""
+"WXCFG=gcc492-x64_dll/mswu"
 
-The original implementation had always hard coded ""gcc_dll_\mswu""
+"WXCFG=gcc510-x64_dll/mswu"
+
+"WXCFG=vc_x64_dll/mswu"
+
+The original implementation had always hard coded "gcc_dll_\mswu"
+
 
 //--------------------------------------------------------------------------------------------
+
 // Name:        wx-config[-win]
+
 // Purpose:     A wx-config implementation for MinGW/DMars/VC
+
 // Author:      Takeshi Miya <takeshimiya at gmail dot com>
+
 // Created:     2006-03-23
+
 // Copyright:   (c) Takeshi Miya
+
 // Licence:     wxWidgets licence
+
 // First Source:
+
 // $URL: http://wx-config-win.googlecode.com $
+
 //
+
 // Second Source:
+
 // $URL: https://github.com/stahta01/wx-config-win $
+
 //
+
 // Current Version:
+
 // $URL: https://github.com/Uskok/wx-config $
+
 // Modified: uskok@o2mail.de
+
 //--------------------------------------------------------------------------------------------
+
 
 wx-config is a tiny implementation of wx-config for Windows compilers.
 
