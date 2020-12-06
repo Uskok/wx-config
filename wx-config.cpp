@@ -532,6 +532,7 @@ bool ValidateConfiguration(const std::string& wxcfgfile, const std::string& wxcf
   {
     if(!isBuildCfgOpen)
     {
+      std::cout << std::endl; // On error, add one empty line, as is done in linux version
       if(!isSetupHOpen)
       {
         std::cout << g_tokError << "No valid setup.h of wxWidgets has been found at location: " << wxcfgsetuphfile
