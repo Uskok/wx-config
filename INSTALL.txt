@@ -6,8 +6,9 @@ For installing wx-config-win simply copy the file wx-config.exe to somewhere in 
 Examples: C:\Windows\System32\wx-config.exe
           C:\MinGW\bin\wx-config.exe
 
-Set the environmental variable WXWIN to where you have installed wxWidgets.
+Set the environmental variable WXWIN and WXCFG to where you have installed wxWidgets.
 Example: WXWIN=C:\wxWidgets
+         WXCFG=gcc_dll/mswu
 
 For more info see README.txt
 
