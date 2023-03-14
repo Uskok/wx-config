@@ -296,6 +296,10 @@ void Compiler::ProcessMain(Options& po, const CmdLineOptions& cl, BuildFileOptio
 
   po["__LIB_COMCTL32_p"] = AddLib("comctl32");
 
+  po["__LIB_VERSION_p"] = AddLib("version");
+
+  po["__LIB_SHLWAPI_p"] = AddLib("shlwapi");
+
   if(sho["wxUSE_OLE"])
     po["__LIB_OLE32_p"] = AddLib("ole32");
 
@@ -338,6 +342,8 @@ void Compiler::ProcessMain(Options& po, const CmdLineOptions& cl, BuildFileOptio
               <sys-lib>winmm</sys-lib>
               <sys-lib>shell32</sys-lib>
               <sys-lib>comctl32</sys-lib>
+              <sys-lib>version</sys-lib>
+              <sys-lib>shlwapi</sys-lib>
               <sys-lib>ole32</sys-lib>
               <sys-lib>oleaut32</sys-lib>
               <sys-lib>uuid</sys-lib>
