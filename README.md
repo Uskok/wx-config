@@ -80,7 +80,7 @@ Options:
   Also note that using --wxcfg is not needed if you have defined the
   environmental variable WXCFG.
 ```
-//--------------------------------------------------------------------------------------------
+
 
 The currently supported compilers are:
 * GNU MinGW [gcc]
@@ -108,6 +108,6 @@ Disvantages of using wx-config:
   standard, there wouldn't be any need for this.
   Here's the FR: http://sourceforge.net/tracker/index.php?func=detail&aid=1434365&group_id=9863&atid=359863
 
-//--------------------------------------------------------------------------------------------
+
 
 
